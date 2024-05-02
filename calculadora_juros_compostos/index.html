@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <main>
+        <h1>Simulador de juros compostos</h1>
+        <div id="calculadora">
+            <div class="coluna">
+                <div>
+                    <div id="inicial">
+                        <label for="valor_inicial">
+                            <p>Valor inicial</p>
+                        </label>
+                        <div class="input">
+                            <span>R$</span>
+                            <input type="number" name="" id="valor_inicial" placeholder="0,00">
+                        </div>
+                    </div>
+
+                    <div id="taxa">
+                        <label for="taxa_juros">
+                            <p>Taxa de juros</p>
+                        </label>
+                        <div class="input">
+                            
+                                <span>%</span>
+                                <input type="number" name="" id="taxa_juros" placeholder="0">
+                                <select name="" id="">
+                                    <option value="">Anual</option>
+                                    <option value="">Mensal</option>
+                                </select>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna">
+                <div>
+                    <div id="mensal">
+                        <label for="valor_mensal">
+                            <p>Valor mensal</p>
+                        </label>
+                        <div class="input">
+                            
+                                <span>R$</span>
+                                <input type="number" name="" id="valor_mensal" class="real" placeholder="0,00">
+                            
+                        </div>
+                    </div>
+                    <div id="periodo">
+                        <label for="tempo">
+                            <p>Período em</p>
+            
+                        </label>
+                        <div class="input">
+                            <input type="number" name="" id="tempo" placeholder="0">
+                            <select name="" id="">
+                                <option value="">Anos</option>
+                                <option value="">Meses</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+        
+        <div id="calcular">
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        
+        
+        <div id="resultado">
+            <h1>Resultado</h1>
+            <div class="resultados">
+                <h1>Valor total final</h1>
+                <p id="valor_geral">R$00,00</p>
+            </div>
+            <div class="resultados">
+                <h1>Valor total investido</h1>
+                <p id="valor_total_investido">R$00,00</p>
+            </div>
+            <div class="resultados">
+                <h1>Total em juros</h1>
+                <p id="total_juros">R$00,00</p>
+            </div>
+        </div>
+        
+    </main>
+
+    
+    
+
+    
+        
+
+
+    </footer>
+</body>
+</html>
