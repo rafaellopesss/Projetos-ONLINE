@@ -17,11 +17,11 @@ for (contador = 0; contador < adicionar.length; contador ++){
         if (carrinho.style.display = 'none'){
 
             carrinho.style.display = 'block'
-
-            carrinho.style.padding = '20px'
+           
+            carrinho.style.padding = '10px'
             setTimeout(function(){
                 carrinho.style.transition = '0.8s'
-                carrinho.style.padding = '15px'
+                carrinho.style.padding = '20px'
             }, 900)
         
         }

@@ -60,6 +60,7 @@ div#banner {
  
 
 div#banner > span {
+    margin-top: 50%;
     display: none;
     font-size: 1.6em;
     text-align: center;
